@@ -14,7 +14,7 @@ const userSignInReqBodyValidation = {
 
 const productReqBodyValidation = {
     name: Joi.string().required(),
-    pice: Joi.number().required(),
+    price: Joi.number().required(),
     quantity: Joi.number().required()
 }
 
